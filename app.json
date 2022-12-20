@@ -11,7 +11,7 @@
   ],
   "success_url": "https://t.me/joinchat/vcOhk8tX214zNGQ1",
   "website": "https://github.com/killersparrow0/Forward-it-robo",
-  "repository": "https://github.com/killersparrow0/Forward-it-robo",
+  "repository": "https://github.com/kikkaras/Forward-it-robo",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org or @UseTGXBot",
