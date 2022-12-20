@@ -12,9 +12,9 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
-    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", None)
-    FILTER_TYPE = os.environ.get("FILTER_TYPE", "")
-    OWNER_ID = os.environ.get("OWNER_ID", 12345)
+    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", 123451)
+    FILTER_TYPE = []
+    OWNER_ID = os.environ.get("OWNER_ID")
     LIMIT = int(os.environ.get("LIMIT", "25000"))
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
     SESSION = os.environ.get("SESSION")
